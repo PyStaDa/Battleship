@@ -12,10 +12,21 @@
         "shipID": 1,
         "player": 2,
         "position": {
-          "columns": 4,
-          "rows": [
+          "x": [
             2,
             3,
+            4
+          ],
+          "y": [
+            4
+          ]
+        },
+        "damage": {
+          "x": [
+            3,
+            4
+          ],
+          "y": [
             4
           ]
         }
@@ -24,13 +35,21 @@
         "shipID": 4,
         "player": 4,
         "position": {
-          "columns": [
+          "x": [
+            2
+          ],
+          "y": [
             1,
             2,
             3
-          ],
-          "rows": [
+          ]
+        },
+        "damage": {
+          "x": [
             2
+          ],
+          "y": [
+            3
           ]
         }
       }
