@@ -1,0 +1,6 @@
+// Use http://www.graphviz.org/ to visualize this.
+// For example: `neato -Tpdf -o structure.pdf structure.dot`
+
+digraph battleship {
+    "Game API (Python)" -> "RESTful HTTP API (Python)" -> "Frontend (JavaScript?)";
+}
