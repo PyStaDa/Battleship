@@ -1,9 +1,11 @@
 {
   "gameID": 123,
+  "turn": 11,
   "players": [
     2,
     4
   ],
+  "currentPlayer": 4,
   "board": {
     "columns": 10,
     "rows": 10,
