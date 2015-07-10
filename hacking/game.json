@@ -1,0 +1,39 @@
+{
+  "gameID": 123,
+  "players": [
+    2,
+    4
+  ],
+  "board": {
+    "columns": 10,
+    "rows": 10,
+    "ships": [
+      {
+        "shipID": 1,
+        "player": 2,
+        "position": {
+          "columns": 4,
+          "rows": [
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      {
+        "shipID": 4,
+        "player": 4,
+        "position": {
+          "columns": [
+            1,
+            2,
+            3
+          ],
+          "rows": [
+            2
+          ]
+        }
+      }
+    ]
+  }
+}

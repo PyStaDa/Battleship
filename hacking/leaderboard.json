@@ -1,0 +1,22 @@
+{
+  "players": [
+    {
+      "id": 2,
+      "win": 9,
+      "lost": 3,
+      "score": 6
+    },
+    {
+      "id": 4,
+      "win": 4,
+      "lost": 3,
+      "score": 1
+    },
+    {
+      "id": 9,
+      "win": 4,
+      "lost": 6,
+      "score": -2
+    }
+  ]
+}
