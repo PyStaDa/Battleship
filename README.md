@@ -35,7 +35,13 @@ The result can be directly used with the falcon framework http://falcon.readthed
 
 ### Resources
 
-* `/api/v1/`
+This is the documentation for the REST API.
+
+* `/game`
+* `/game/{game_id}`
+* `/game/{game_id}/player/{player_id}`
+* `/game/{game_id}/board`
+* `/leaderboard`
 
 ## Goals
 
