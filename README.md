@@ -43,13 +43,15 @@ This is the documentation for the REST API.
 * `/game/{game_id}/board`
 * `/leaderboard`
 
-## Goals
+## Goals and Ideas
 
-* Create a modular API as a game engine, to be frontend-agnostic
-  which communicates using json messages
+* Create a modular API as a game engine, to be frontend-agnostic  
+  and which communicates using json messages
 * Maybe: Persist on disk using sqlite and `SQLAlchemy`?
 * Work test-driven (`pytest`?)
 * Follow PEP8 and other good advices
+* Create Bots which can play the game autonomously against themselves  
+  or human opponents
 
 ## Links
 
