@@ -28,18 +28,21 @@ Each player has a dedicated map. The map has a size of 10x10 quadrants.
 
 The game ends when one player lost all his or her ships.
 
-## Goals (learn technologies)
+## RESTful API
+
+The API is modeled after http://tools.ietf.org/html/rfc6570 .
+The result can be directly used in the [1][falcon web framework].
+
+## Goals
 
 * Create a modular API as a game engine, to be frontend-agnostic
   which communicates using json messages
-* Provide a `falcon`-based RESTful API as a frontend for multiplayer support
 * Maybe: Persist on disk using sqlite and `SQLAlchemy`?
-
-## Goals (style)
-
 * Work test-driven (`pytest`?)
 * Follow PEP8 and other good advices
 
-## Ressources
+## Links
 
 * http://de.battleship-game.org
+
+[1]: http://falcon.readthedocs.org
