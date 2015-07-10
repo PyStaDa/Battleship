@@ -30,8 +30,12 @@ The game ends when one player lost all his or her ships.
 
 ## RESTful API
 
-The API is modeled after http://tools.ietf.org/html/rfc6570 .
-The result can be directly used in the [1][falcon web framework].
+The API is modeled after http://tools.ietf.org/html/rfc6570 .  
+The result can be directly used with the falcon framework http://falcon.readthedocs.org.
+
+### Resources
+
+* `/api/v1/`
 
 ## Goals
 
@@ -44,5 +48,3 @@ The result can be directly used in the [1][falcon web framework].
 ## Links
 
 * http://de.battleship-game.org
-
-[1]: http://falcon.readthedocs.org
