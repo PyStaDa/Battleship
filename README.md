@@ -38,16 +38,15 @@ The result can be directly used with the falcon framework http://falcon.readthed
 This is the documentation for the REST API.
 
 * `GET` `/dice` this is our dice which decides who starts the game
-* `GET` `/game` keeps the game logic
-* `GET` `/game/{game_id}` represents a game. Many games may run concurrently.
-* `GET` `/game/{game_id}/board` represents a game's board.
+* `GET` `/game` the main game resource
+* `GET` `/game/{game_id}` returns the game data customized for the requesting player including the placement of ships and the damage on these ships
 * `GET` `/game/{game_id}/player/{player_id}` represents a player inside a game.
 * `POST` `/game/{game_id}/turn` the endpoint where the players send their turns.
-* `POST` `/game/{game_id}/turn/deploy` is where players deploy a ship, until
+* `POST` `/game/{game_id}/turn/deploy` is where players deploy their ships, until
    a player has nothing left to deploy and starts firing at ships
 * `POST` `/game/{game_id}/turn/fire` fires on the opponents ships. This is only
-  possible when every ship has been deployed
-* `GET` `/leaderboard` keeps the persistent leaderboard logic
+  possible when every ship has already been deployed
+* `GET` `/leaderboard` shows the persistent ranking
 
 The `hacking` folder has sample data to illustrate the APIs payload.
 
