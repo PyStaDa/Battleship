@@ -43,6 +43,8 @@ This is the documentation for the REST API.
 * `/game/{game_id}/board`
 * `/leaderboard`
 
+The `hacking` folder has sample data to illustrate the APIs payload.
+
 ## Goals and Ideas
 
 * Work test-driven using the py.test framework
