@@ -1,6 +1,9 @@
 {
   "gameID": 123,
   "turn": 11,
+  "lastTurn": {
+    "takenByPlayer": 2
+  },
   "players": [
     2,
     4
@@ -12,7 +15,7 @@
     "ships": [
       {
         "shipID": 1,
-        "player": 2,
+        "player": 4,
         "position": {
           "x": [
             2,
@@ -34,7 +37,7 @@
         }
       },
       {
-        "shipID": 4,
+        "shipID": 2,
         "player": 4,
         "position": {
           "x": [
