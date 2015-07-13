@@ -45,10 +45,10 @@ This is the documentation for the REST API.
 
 ## Goals and Ideas
 
+* Work test-driven using the py.test framework
 * Create a modular API as a game engine, to be frontend-agnostic  
   and which communicates using json messages
 * Maybe: Persist on disk using sqlite and `SQLAlchemy`?
-* Work test-driven (`pytest`?)
 * Follow PEP8 and other good advices
 * Create Bots which can play the game autonomously against themselves  
   or human opponents
