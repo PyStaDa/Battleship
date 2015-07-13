@@ -62,4 +62,5 @@ The `hacking` folder has sample data to illustrate the APIs payload.
 
 ## Links
 
-* http://de.battleship-game.org
+* http://de.battleship-game.org a nice battleship game for your browser
+* http://technicalrex.com/tag/pegger/ is a nice series of blogposts discussing how to build an HTTP API for turn-based games
