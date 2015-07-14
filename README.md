@@ -38,7 +38,10 @@ The result can be directly used with the falcon framework http://falcon.readthed
 This is the documentation for the REST API.
 
 * `GET` `/dice` this is our dice which decides who starts the game
+* `GET` `/player` the main player resource
+* `POST` `/player/create` creates and returns a player UUID
 * `GET` `/game` the main game resource
+* `POST` `/game/create` returns a game UUID
 * `GET` `/game/{game_id}` returns the game data customized for the requesting player including the placement of ships and the damage on these ships
 * `GET` `/game/{game_id}/player/{player_id}` represents a player inside a game.
 * `POST` `/game/{game_id}/turn` the endpoint where the players send their turns.
