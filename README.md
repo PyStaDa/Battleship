@@ -1,3 +1,5 @@
+[![Code Issues](http://www.quantifiedcode.com/api/v1/project/815c60fd546e439dbfb56c3334759d06/badge.svg)](http://www.quantifiedcode.com/app/project/815c60fd546e439dbfb56c3334759d06)
+
 # Battleship
 This is a RESTful Webservice which provides the backend to play the famous battleship guessing game over HTTP
 
