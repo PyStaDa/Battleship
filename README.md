@@ -69,3 +69,4 @@ The `hacking` folder has sample data to illustrate the APIs payload.
 
 * http://de.battleship-game.org a nice battleship game for your browser
 * http://technicalrex.com/tag/pegger/ is a nice series of blogposts discussing how to build an HTTP API for turn-based games
+* http://jsonapi.org/ a set of shared conventions how to design a JSON API
